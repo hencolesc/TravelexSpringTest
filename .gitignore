@@ -4,6 +4,10 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
+## Ignorar compilados Java e binários
+*.class
+/bin
+
 ### STS ###
 .apt_generated
 .classpath
